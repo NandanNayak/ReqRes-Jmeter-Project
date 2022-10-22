@@ -2,8 +2,8 @@
 
 ## Table of Contents
 
-- [introduction](#introduction)
-- [resources](#resources)
+- [Introduction](#introduction)
+- [Resources](#resources)
 
 ## Introduction
 
