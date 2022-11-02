@@ -3,6 +3,7 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [mTLS communication using Jmeter](#mTLS-communication-using-Jmeter)
 - [Resources](#resources)
 
 ## Introduction
