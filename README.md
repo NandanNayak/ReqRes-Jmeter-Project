@@ -16,3 +16,4 @@ In this script, I have used a `ThreadGroup` to create a test suite to perform HT
 ## Resoures
 
 - [https://reqres.in](https://reqres.in)
+- [How to run Jmeter ThreadGroups sequentially](http://www.mahsumakbas.net/run-jmeter-thread-groups-consecutively/)
