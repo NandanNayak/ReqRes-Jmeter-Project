@@ -16,7 +16,7 @@ In this script, I have used a `ThreadGroup` to create a test suite to perform HT
 
 ## mTLS communication using Jmeter
 
-For mTLS commuunication, Jmeter accepts a P12 file. In order to generate one you need a `client.crt` and `client.key`. Using these use openssl to generate a P12 file
+For mTLS commuunication, Jmeter accepts a P12 file. In order to generate one, you need a `client.crt` and `client.key`. Using these files, use `openssl` to generate a P12 file as shown below
 
 ```bash
 openssl pkcs12 -export -name client-cert -in client.crt -inkey client.key -out clientkeystore.p12
