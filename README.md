@@ -14,16 +14,6 @@ The Jmeter script `ReqResTesting.jmx` is an attempt to understand the basic func
 
 In this script, I have used a `ThreadGroup` to create a test suite to perform HTTP requests and assert the responses using the Status codes and text responses. The `ThreadGroup` also generates a `Results Tree` to analyze all the responses and assertions.
 
-## mTLS communication using Jmeter
-
-For mTLS commuunication, Jmeter accepts a P12 file. In order to generate one, you need a `client.crt` and `client.key`. Using these files, use `openssl` to generate a P12 file as shown below
-
-```bash
-openssl pkcs12 -export -name client-cert -in client.crt -inkey client.key -out clientkeystore.p12
-```
-
-Once you have the P12 file, in Jmeter go to `Options` -> `SSL Manager`, select the P12 file and you are good to go.
-
 ## Resoures
 
 - [https://reqres.in](https://reqres.in)
